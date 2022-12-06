@@ -3,7 +3,6 @@ data = [x.split(' ') for x in get_data(day=2).splitlines()]
 
 def part1(data):
     win = {'X': 'C', 'Y': 'A', 'Z': 'B'}
-    lose = {'X': 'B', 'Y': 'Z', 'Z': 'A'}
     draw = {'X': 'A', 'Y': 'B', 'Z': 'C'}
     pts = {'X': 1, 'Y': 2, 'Z': 3}
     score = 0
